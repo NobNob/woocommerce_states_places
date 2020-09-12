@@ -1,101 +1,193 @@
-# States, Cities, and Places for Woocommerce
+<a href="#!"><img src="https://github.com/chitezh/woocommerce_states_places/raw/master/assets/banner-1544x500.png" alt="Plugin banner" title="States, Cities, and Places for WooCommerce"/></a>
 
-Wordpress plugin that shows dropdowns for State and City Select for woocomerce.
+# States, Cities, and Places for WooCommerce
+
+* Stable tag: 1.2.10
+* Requires at least: 4.0
+* Tested up to: 5.5
+* Requires PHP: 7.0
+* WC requires at least: 3.0.x
+* WC tested up to: 4.3
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+WordPress plugin that shows dropdowns for State and City Select for WooCommerce.
 
 This WooCommerce plugin transforms the text input for states, the city or town. With this plugin you can provide a list of states and cities to be shown as a select dropdown.
 
 This will be shown in checkout pages, edit addresses pages, shipping calculator, etc.
 
 ## Supported Countries
- * Chile
- * Guatemala
- * Nigeria
- * Panama
- * Venezuela
+ * 🇩🇿 Algeria
+ * 🇧🇧 Barbados
+ * 🇧🇴 Bolivia
+ * 🇧🇷 Brazil
+ * 🇨🇱 Chile
+ * 🇨🇴 Colombia
+ * 🇩🇰 Denmark
+ * 🇩🇴 Dominican Republic
+ * 🇪🇨 Ecuador
+ * 🇪🇬 Egypt
+ * 🇸🇻 El Salvador
+ * 🇬🇭 Ghana
+ * 🇬🇹 Guatemala
+ * 🇭🇳 Honduras
+ * 🇮🇹 Italy
+ * 🇰🇿 Kazakhstan
+ * 🇰🇼 Kuwait
+ * 🇱🇧 Lebanon
+ * 🇳🇮 Nicaragua
+ * 🇳🇬 Nigeria
+ * 🇴🇲 Oman
+ * 🇵🇰 Pakistan
+ * 🇵🇦 Panama
+ * 🇵🇹 Portugal
+ * 🇷🇴 Romania
+ * 🇷🇺 Russia
+ * 🇸🇦 Saudi Arabia
+ * 🇪🇸 Spain
+ * 🇱🇰 Sri Lanka
+ * 🇹🇳 Tunisia
+ * 🇦🇪 United Arab Emirates
+ * 🇺🇾 Uruguay
+ * 🇻🇪 Venezuela
+ * *Do you want to add your country here?*<br>[Help us extending this list adding your country](https://github.com/chitezh/woocommerce_states_places/tree/master/templates).
 
-## Requirements
-* WordPress 4.0  or greater
-* Woocommerce 2.2 or greater
-* PHP version 5.2.4 or greater
-* MySQL version 5.0 or greater
+## Languages available
+
+* English (US)
+* Spanish ([Spain](https://translate.wordpress.org/locale/es/default/wp-plugins/states-cities-and-places-for-woocommerce/), [Mexico](https://translate.wordpress.org/locale/es-mx/default/wp-plugins/states-cities-and-places-for-woocommerce/), [Venezuela](https://translate.wordpress.org/locale/es-ve/default/wp-plugins/states-cities-and-places-for-woocommerce/))
+* *Do you want to see your language here?*<br>[Help us translating the plugin to your language](https://translate.wordpress.org/projects/wp-plugins/states-cities-and-places-for-woocommerce/).
+
+## Screenshots
+* In this screenshot you can see the plugin in action:  
+
+<a href="#!"><img src="https://github.com/chitezh/woocommerce_states_places/raw/master/assets/screenshot-1.gif" alt="Plugin in action" title="Plugin in action"/></a>
 
 ## Installation
-### Automatic
-Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't need to leave your web browser.
 
-To do an automatic install of WooCommerce, log in to your WordPress dashboard, navigate to the Plugins menu and click `Add New`.
+### Automatic installation
+1. Go to your **Dashboard » Plugins » Add new**
+2. In the search form write **"States, Cities, and Places for Woocommerce"**
+3. When the search return the result, click on the **Install Now** button
+4. Finally, click on the **Activate** button
+5. Enjoy the plugin!
 
-Search for `States, Cities, and Places for Woocommerce`, install and activate.
+### Manual Installation
+1. Download the plugin from this page clicking on the **Download** button
+2. Go to your **Dashboard » Plugins » Add new**
+3. Now select **Upload Plugin** button
+4. Click on **Select file** button and select the file you just download
+5. Click on **Install Now** button and the **Activate Plugin**
+6. Enjoy the plugin!
 
-### Manual
-[See wordpress codex](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation)
-
-
-## Updating
-
-Automatic updates should work like a charm; as is the best practice, back up should be undertaken before updates.
-
-If on the off-chance you do encounter issues with the shop/category pages after an update you simply need to flush the permalinks by going to WordPress > Settings > Permalinks and hitting 'save'. That should return things to normal.
-
+### FTP Installation
+1. Download the plugin from this page clicking on the **Download** button
+2. Decompress the file in your desktop
+3. Run your FTP client software and conect to your WordPress installation
+4. Copy to [root folder]/wp-content/plugins/ the plugin directory you just descompress
+5. Go to your Dashboard » Plugins » Find the plugin and click on **Activate** option
+6. Enjoy the plugin!
 
 ## Frequently Asked Questions
 ### How do I report bugs?
-Kindly create an issue stating the bug and how you caught it [chitezh/woocommerce_states_places](https://github.com/chitezh/woocommerce_states_places/issues/new)
+Kindly create an issue stating the bug and how you caught it: [Create new issue](https://github.com/chitezh/woocommerce_states_places/issues/new).
 
 ### Can I suggest a new place or location?
-Yes, you can always suggest or request new locations by creating an issue [chitezh/woocommerce_states_places](https://github.com/chitezh/woocommerce_states_places/issues/new).
-
-### How do I contribute to the project?
-You extend the plugin to cover countries, states and places. we accept pull requests.
-
-Fork the repo and make changes to /trunk. Consider reading [Wordpress F.A.Q.](https://wordpress.org/plugins/about/faq/) to further understand wordpress svn file structure.
-
-	Pull Requests
-
-	Document any change in behaviour - Make sure the README.md and any other relevant documentation are kept up-to-date.
-
-	Consider our release cycle - We try to follow SemVer v2.0.0. Randomly breaking public APIs is not an option.
-
-	Create feature branches - Don't ask us to pull from your master branch.
-
-	One pull request per feature - If you want to do more than one thing, send multiple pull requests.
-
-	Send coherent history - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please squash them before submitting.
-
-## Screenshots
-1. States dropdown.
-  	[![Screen 1](https://github.com/chitezh/woocommerce_states_places/blob/master/assets/screenshot-1.png)]()
-
-2. States dropdown on search.
- 	[![Screen 2](https://github.com/chitezh/woocommerce_states_places/blob/master/assets/screenshot-2.png)]()
-
-3. Cities dropdown on search
-	[![Screen 3](https://github.com/chitezh/woocommerce_states_places/blob/master/assets/screenshot-3.png)]()
-
-4. Selected state and city.
- 	[![Screen 4](https://github.com/chitezh/woocommerce_states_places/blob/master/assets/screenshot-4.png)]()
+Yes, you can always suggest or request new locations by creating an issue in the [plugin repository](https://github.com/chitezh/woocommerce_states_places/issues/new) in GitHub. Please refer to the [Adding a new country](https://github.com/chitezh/woocommerce_states_places/tree/master/templates) instructions to get more details.
 
 ## Contributors
-- Kingsley Ochu - [chitezh](https://github.com/chitezh)
-- Luis Sebastian Urrutia Fuentes - [LuisUrrutia](https://github.com/LuisUrrutia)
-- Yordan Soares - [YordanSoares](https://github.com/YordanSoares)
-
+- **Kingsley Ochu** - (GitHub: [chitezh](https://github.com/chitezh) / WP: [chitezh](https://profiles.wordpress.org/chitezh/))
+- **Luis Urrutia** - (GitHub: [LuisUrrutia](https://github.com/LuisUrrutia) / WP: [luisurrutiaf](https://profiles.wordpress.org/luisurrutiaf/))
+- **Javier Esteban** - (GitHub: [NobNob](https://github.com/NobNob) / WP: [NobNob](https://profiles.wordpress.org/nobnob/))
+- **José Ayrám** - (GitHub: [joseayram](https://github.com/joseayram) / WP: [joseayram](https://profiles.wordpress.org/joseayram/))
+- **Yordan Soares** - (GitHub: [YordanSoares](https://github.com/YordanSoares) / WP: [YordanSoares](https://profiles.wordpress.org/yordansoares/))
 
 ## Changelog
-* 1.2.1
-  * Add two new countries places: Panama (PA) and Venezuela (VE).
+* 1.2.10 - Jul 31, 2020
+  * Added five new countries:
+    * 🇪🇬 Egypt: Governorates and Cities (thanks to [Heba Fareed](https://github.com/HebaFareed))
+    * 🇬🇭 Ghana: Regions, Cities, and Towns (thanks to [Edem Adjokatcher](https://github.com/adjokatsee))
+    * 🇰🇼 Kuwait: Governorates and Districts (thanks to [3Lahoonk](https://twitter.com/3LaHoonK))
+    * 🇱🇧 Lebanon: Provinces and Cities (thanks to Mohamad [Ali Makkeh](https://github.com/makkehma))
+    * 🇦🇪 United Arab Emirates: Emirates and Localities (thanks to [Waqas Ahmad](https://www.apnawaqas.com))
+  * Updated 2 countries:
+    * 🇩🇰 Denmark: The "State" field was deactivated and all the cities were listed in "City" field directly.
+    * 🇩🇰 Denmark: Updated list of cities (thanks to [jonasskafte](https://github.com/jonasskafte))
+    * 🇻🇪 Venezuela: Removed "Municipality" variable from places/VE.php.
+* 1.2.9 - Jun 20, 2020
+  * Added two new countries:
+    * 🇧🇴 Bolivia: Departments and Municipalities (thanks to [ionixcorp](https://github.com/ionixcorp))
+    * 🇩🇴 Dominican Republic: Provinces and Municipalities (thanks to [Javier Molina](https://forways.com.do))
+  * Fixed: Algeria did not display the cities (thanks to [@yas-se](https://wordpress.org/support/topic/problem-in-sync-cities-according-to-the-choosen-state/) for reporting)
+* 1.2.8 - Jun 01, 2020
+  * Added three new countries:
+    * 🇩🇰 Denmark: Regions and Municipalities (thanks to [jonasskafte](https://github.com/jonasskafte) for testing this country)
+    * 🇭🇳 Honduras: Departments and Municipalities (thanks to [jbermudez00](https://github.com/jbermudez00))
+    * 🇵🇰 Pakistan: Provinces, Territories and Districts (thanks to [Faisal Basra](https://github.com/faisalbasra))
+  * Updated 1 country:
+    * 🇴🇲 Oman: Added translation support for location names (thanks to [Moayid](https://github.com/Moayid))
+* 1.2.7 - May 17, 2020
+  * Added five new countries:
+    * 🇪🇨 Ecuador: Provinces and Cantons (thanks to [Franklin Lucero](https://github.com/Alercard))
+    * 🇰🇿 Kazakhstan: Regions and Districts (thanks to Iminov Anvar)
+    * 🇴🇲 Oman: Governorates and Provinces (thanks to [iAlwardi](https://github.com/ialwardi))
+    * 🇷🇴 Romania: Counties and Cities (thanks to [Razvan Farte](https://razvanfarte.ro/))
+    * 🇱🇰 Sri Lanka: Districts and Cities (thanks to [Pasindu Perera](https://github.com/maddagepasindu))
+  * Updated 1 country:
+    * 🇨🇱 Chile: removed "Región:" in State names (thanks to [CLobo96](https://github.com/CLobo96))
+* 1.2.6 - April 16, 2020
+  * Added four new countries:
+    * 🇧🇧 Barbados: Parishes and Places (thanks to [Damien Alleyne](https://github.com/d-alleyne))
+    * 🇸🇻 El Salvador: Departments and Municipalities (thanks to [ChronHeart](https://github.com/lastcron))
+    * 🇮🇹 Italy: Provinces and Municipalities (thanks to [Claudio Tegazzini](https://www.claudiotegazzini.it))
+    * 🇵🇹 Portugal: Districts, Autonomous Regions and Municipalities (thanks to [Javier Esteban](https://profiles.wordpress.org/nobnob/))
+  * Fixed some issues with 🇳🇬 Nigeria (thanks to [Ibrahim Nasir](https://github.com/kh4l33l))
+  * Added two experimental filter hooks to Algeria ([How to use](https://wordpress.org/support/topic/show-a-specific-state/#post-12681489)):
+    * `scpwoo_custom_states_dz` - handles Provinces of Algeria
+    * `scpwoo_custom_places_dz` - handles Communes of Algeria
+* 1.2.5 - April 06, 2020
+  * Added three new countries:
+    * 🇨🇴 Colombia: Departments and Cities (thanks to [José Ayrám](https://profiles.wordpress.org/joseayram/))
+    * 🇸🇦 Saudi Arabia: Regions and Governorates.
+    * 🇺🇾 Uruguay: Departments and Cities (thanks to [Alfonso Frachelle](https://www.idearius.com/es/))
+  * Added support translation feature for location names of Algeria and Saudi Arabia.
+  * Added plugin page banner and icon. Thanks to [Javier Esteban](https://profiles.wordpress.org/nobnob/)!
+  * Updated screenshot.
+* 1.2.4 - March 30, 2020
+  * Fix an issue with a country (Algeria)
+* 1.2.3 - March 22, 2020
+  * Added localization to "State" and "City" field labels  
+* 1.2.2 - March 22, 2020
+  * Added six new countries:
+    * 🇩🇿 Algeria: Departments (Wilaya) and Municipalities (Baladiyahs) (thanks to [Walid Yacine MAZED](https://github.com/w-mazed))
+    * 🇧🇷 Brazil: States and Municipalities ([country request](https://github.com/chitezh/woocommerce_states_places/issues/35) - issue #35)
+    * 🇳🇮 Nicaragua: Departments and Cities (thanks to [ahc505](https://github.com/ahc505))
+    * 🇷🇺 Russia: States and Cities (thanks to [Sarge Madovsky](https://github.com/SargeMadovsky))
+    * 🇪🇸 Spain: Provinces and Municipalities (thanks to [Javier Esteban](https://profiles.wordpress.org/nobnob/))
+    * 🇹🇳 Tunisia: Governorates and Districts (thanks to [Anouar Ben Saad](https://github.com/anouarbensaad))
+  * Updated 2 countries:  
+    * 🇨🇱 Chile: states codes (thanks to [Luis Urrutia](https://github.com/LuisUrrutia))
+    * 🇬🇹 Guatemala: missing municipalities (thanks to [macnomo](https://github.com/macnomo))    
+  * Tested up to WooCommerce 4.0.1
+* 1.2.1 - March 18, 2020
+  * Added two new countries: 
+    * 🇵🇦 Panama: Provinces, Districts and Corregimientos
+    * 🇻🇪 Venezuela: States and Municipalities (with their capitals)
   * Invert the order of State and City fields to have more sense with the steps of form.
   * Fix text domain in plugin header comment (states-cities-and-places-for-woocommerce).
   * Fix some typos and strings without translation functions.
-* 1.2.0
-  * 07/02/2019 Add Guatemala
-* 1.1.1
-  * 28/08/2018 Update Chilean states and cities (16 states, no numbers).
-* 1.1.0
-  * 09/07/2017 Add Chilean states
-* 1.0.2
-  * 10/08/2016 Change author name.
-* 1.0.1
-  * 10/08/2016 Update readme.
-* 1.0.0
-  * 15/07/2016 First release.
+* 1.2.0 - February 07, 2019
+  * Added a new country: 
+    * 🇬🇹 Guatemala
+* 1.1.1 - August 28, 2018
+  * Updated Chilean states and cities (16 states, no numbers).
+* 1.1.0 - July 09, 2017
+  * Added a new country: 
+    * 🇨🇱 Chile
+* 1.0.2 - August 11, 2016
+  * Change author name.
+* 1.0.1 - August 10, 2016
+  * Updated README file.
+* 1.0 - August 10, 2016
+  * First release.
